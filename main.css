@@ -1,0 +1,44 @@
+body{
+  color: rgb(82, 80, 80);
+  background: #ffffff;
+}
+
+.head{
+  background: lightgreen;
+}
+
+h1,h2{
+  color:white;
+}
+
+.title, h1{
+  color:rgb(42, 173, 42);
+  
+}
+
+h1,h2, .title{
+  cursor: pointer;
+}
+[data-link]{
+  padding-bottom: 10px;
+}
+[data-link] a{
+  
+  border: 1px solid gray;
+  width: 45px;
+  height: 41px;
+  padding-top: 5px;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.3em;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.head i{
+  margin-top: 7px;
+}
+
+
