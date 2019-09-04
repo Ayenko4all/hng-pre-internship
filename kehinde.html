@@ -138,23 +138,57 @@
        </table>
 
        <table width="100%"  border="1" >
-          <thead class="head">
+          <thead >
             <tr>
-              <th colspan="4" data-link>
-                <h2><u>Contact Me</u></h2>
+              <th colspan="2" class="title">CONTACT ME</th>
+            </tr>
+              <tr class="head">
+                <td>
+                  <h3>Send me a message</h3>
+                 <form action="" name="myForm" onsubmit="return validateForm()" method="Post">
+                   <div>
+                    
+                     <input type="text" name="name" id="name" placeholder="Your name....">
+                      <span id="error-name" hidden><li> name is required</li></span>
+                      <span id="character" hidden><li> Name character must not be less than 3</p></span>
+                   </div>
+                    <div>
+                      <input type="" name="email" id="email" placeholder="Your email....">
+                      <span id="error-email" hidden><li>email is required</li> </span>
+                       <span id="email-character" hidden><li>Enter a valid email</li> </span>
+                    </div>
+                    <div>
+                      <input type="text" name="title" id="title" placeholder="Your title....">
+                       <span id="error-title" hidden><li>title is required</li> </span>
+                    </div>
+                    <div>
+                      <textarea name="message" id="message"  placeholder="Your message...."></textarea>
+                       <span id="error-message" hidden><li>message is required</li> </span>
+                        <span id="mgs-character" hidden><li>Message must  be less 20 character</li> </span>
+                    </div>
+                    <button type="submit" id="submitBtn" class="btn">
+                      <i class="fas fa-envelope"></i>
+                      Send
+                    </button>
+                 </form>
+                </td>
+                <td data-link>
+                <h3>Quick Links</h3>
                 <a><i class="fab fa-twitter"></i></a>
                 <a><i class="fab fa-facebook"></i></a>
                 <a><i class="fab fa-github"></i></a>
                 <a><i class="fab fa-linkedin"></i></a>
-              </th>
-          
-            </tr>
+                </td>
+               
+              </tr>
+           
           </thead>
        </table>
-       
      </table>
    </fieldset>
-   
  </div>
+
+ <script src="main.js"></script>
 </body>
 </html>
+

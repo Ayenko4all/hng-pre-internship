@@ -21,6 +21,10 @@ h1,h2, .title{
 }
 [data-link]{
   padding-bottom: 10px;
+ text-align: center
+}
+[data-link] h3{
+ margin-bottom: 140px;
 }
 [data-link] a{
   
@@ -40,5 +44,67 @@ h1,h2, .title{
 .head i{
   margin-top: 7px;
 }
+
+
+/* VALIDATION */
+
+
+form span{
+  background: rgb(212, 90, 110);
+  color: rgb(37, 29, 29);
+  margin: 0px 0px 5px 55px;
+  width: 72%;
+}
+form span li{
+  list-style: none;
+  padding-left: 5px;
+}
+
+form input {
+  width: 70%;
+  overflow: hidden;
+  margin: 0px 0px 5px 55px;
+  padding: 5px;
+}
+
+form textarea{
+  width: 68.5%;
+  overflow: hidden;
+  margin: 0px 0px 5px 55px;
+  padding: 10px 10px 10px 10px;
+}
+
+
+
+h3{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 25px
+}
+
+form button{
+  display: block;
+  width: 72%;
+  margin: 0px 0px 5px 55px;
+  padding-top: 5px;
+  font-size: 15px;
+  border: none;
+  color: rgb(51, 50, 50);
+  
+
+ 
+}
+form input:focus,
+textarea:focus {
+   background: #1a1a1a;
+   color: white;
+}
+
+form button:focus{
+   background: #1a1a1a;
+   color: white;
+}
+
 
 
