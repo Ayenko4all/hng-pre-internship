@@ -50,8 +50,8 @@ h1,h2, .title{
 
 
 form span{
-  background: rgb(212, 90, 110);
-  color: rgb(37, 29, 29);
+  
+  color: red;
   margin: 0px 0px 5px 55px;
   width: 72%;
 }
@@ -61,17 +61,17 @@ form span li{
 }
 
 form input {
-  width: 70%;
+  width: 69%;
   overflow: hidden;
   margin: 0px 0px 5px 55px;
-  padding: 5px;
+  padding: 10px;
 }
 
 form textarea{
-  width: 68.5%;
+  width: 69%;
   overflow: hidden;
   margin: 0px 0px 5px 55px;
-  padding: 10px 10px 10px 10px;
+  padding: 15px 10px 10px 10px;
 }
 
 
@@ -84,13 +84,15 @@ h3{
 }
 
 form button{
-  display: block;
-  width: 72%;
+  
+  width: 25%;
   margin: 0px 0px 5px 55px;
-  padding-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 15px;
   border: none;
   color: rgb(51, 50, 50);
+  background: gray;
   
 
  
