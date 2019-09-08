@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Web developer" content="Ayeni kehind oluwation">
   <link rel="stylesheet" href="main.css">
   <script src="https://kit.fontawesome.com/2d058dd44a.js"></script>
   <title>HNG Task One</title>
@@ -145,7 +146,7 @@
               <tr class="head">
                 <td>
                   <h3>Send me a message</h3>
-                 <form action="" name="myForm" onsubmit="return validateForm()" method="Post">
+                 <form action="index.php" name="myForm" onsubmit="return validateForm()" method="Post">
                    <div>
                     
                      <input type="text" name="name" id="name" placeholder="Your name....">
@@ -166,7 +167,7 @@
                        <span id="error-message" hidden><li>message is required</li> </span>
                         <span id="mgs-character" hidden><li>Message must  be less 20 character</li> </span>
                     </div>
-                    <button type="submit" id="submitBtn" class="btn">
+                    <button type="submit" id="submitBtn" class="btn" name="submitBtn">
                       <i class="fas fa-envelope"></i>
                       Send
                     </button>

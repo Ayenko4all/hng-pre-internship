@@ -69,7 +69,7 @@ function validateForm() {
     }
     return false;
   }
-  if (message.length < 20) {
+  if (message.length < 25) {
     let error = document.getElementById('mgs-character').style.display = 'block';
     if (error) {
       setTimeout(() => {
